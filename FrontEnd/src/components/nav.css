@@ -1,0 +1,51 @@
+.nav {
+  padding-inline: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: black;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navLeft p {
+  font-family: montserrat;
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+
+.navLeft img {
+  width: 30px;
+}
+
+.navRight {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navRight p {
+  font-family: montserrat;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.navRight button {
+  background-color: rgba(255, 255, 255, 0.575);
+  backdrop-filter: blur(10px);
+  padding: 9px 25px;
+  font-family: montserrat;
+  font-weight: 500;
+
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
